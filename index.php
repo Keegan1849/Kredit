@@ -10,10 +10,10 @@
         <!-- Core theme CSS (includes Bootstrap)-->
         <link rel="stylesheet" href="scripts/style.css">
         <link rel="stylesheet" href="scripts/style2.css">
-        <link rel="stylesheet" href="scripts/explore.css">
     </head>
-    <body>
-        <!-- Navigation-->
+    <body class="bgImg">
+
+     <!-- Navigation-->
      <nav class="navbar navbar-expand-lg navbar-dark bg-dark stickyNav">
             <div class="container px-4 px-lg-5">
                 <a class="navbar-brand" href="index.html">Kredit</a>
@@ -35,18 +35,7 @@
                 </div>
             </div>
         </nav>
-    <!-- End Navigation -->
 
-        <div id="card-container">
-        </div>
-        <div id="loader">
-          <div class="skeleton-card"></div>
-          <div class="skeleton-card"></div>
-          <div class="skeleton-card"></div>
-        </div>
-        <div class="card-actions"> 
-            <span id="card-count"> 
-            <span id="card-total">
-        </div>
     </body>
+
 </html>
