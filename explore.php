@@ -1,7 +1,7 @@
 <html>
     <head>
         <title>Explore Kredit Posts</title>
-        <link rel="stylesheet" href="explore.css">
+        <link rel="stylesheet" href="scripts/explore.css">
     </head>
     <nav>
         <a href="explore.html">Explore</a>
