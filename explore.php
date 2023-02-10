@@ -4,9 +4,9 @@
         <link rel="stylesheet" href="scripts/explore.css">
     </head>
     <nav>
-        <a href="explore.html">Explore</a>
-        <a href="profile.html">Profile</a>
-        <a href="favorites.html">Favorites</a>
+        <a href="explore.php">Explore</a>
+        <a href="profile.php">Profile</a>
+        <a href="favorites.php">Favorites</a>
         <div class="animation start-home"></div>
     </nav>
     <body>
