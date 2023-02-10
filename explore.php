@@ -1,12 +1,12 @@
 <html>
     <head>
         <title>Explore Kredit Posts</title>
-        <link rel="stylesheet" href="Explore.css">
+        <link rel="stylesheet" href="scripts/explore.css">
     </head>
     <nav>
-        <a href="Explore.html">Explore</a>
-        <a href="Profile.html">Profile</a>
-        <a href="Favorites.html">Favorites</a>
+        <a href="explore.html">Explore</a>
+        <a href="profile.html">Profile</a>
+        <a href="favorites.html">Favorites</a>
         <div class="animation start-home"></div>
     </nav>
     <body>
