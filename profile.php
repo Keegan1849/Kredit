@@ -36,18 +36,18 @@
             <div class="col col-lg-12 col-xl-9">
                 <div class="card">
                 <div class="rounded-top text-white d-flex flex-row" style="background-color: #000; height:200px;">
-                    <div class="ms-4 mt-5 d-flex flex-column" style="width: 150px;">
-                    <img src="Images/images.png"
+                    <div class="ms-4 mt-5 d-flex flex-column" style="width: 500px;">
+                    <img src="Images/IMG_5872.JPG"
                         alt="Generic placeholder image" class="img-fluid img-thumbnail mt-4 mb-2"
-                        style="width: 150px; z-index: 1">
+                        style="width: 500px; height: 150px; z-index: 1">
                     <button type="button" class="btn btn-outline-dark" data-mdb-ripple-color="dark"
                         style="z-index: 1;">
                         Edit profile
                     </button>
                     </div>
                     <div class="ms-3" style="margin-top: 130px;">
-                    <h5>Ethan Maher</h5>
-                    <p>Columbus</p>
+                    <h5>Rui Peña</h5>
+                    <p>Zootieland</p>
                     </div>
                 </div>
                 <div class="p-4 text-black" style="background-color: #f8f9fa;">
@@ -70,9 +70,9 @@
                     <div class="mb-5">
                     <p class="lead fw-normal mb-1">About</p>
                     <div class="p-4" style="background-color: #f8f9fa;">
-                        <p class="font-italic mb-1">Web Developer</p>
-                        <p class="font-italic mb-1">Lives in Columbus</p>
-                        <p class="font-italic mb-0">Professional at everything</p>
+                        <p class="font-italic mb-1">Soundcloud Rapper</p>
+                        <p class="font-italic mb-1"></p>
+                        <p class="font-italic mb-0"></p>
                     </div>
                     </div>
                     <div class="d-flex justify-content-between align-items-center mb-4">
