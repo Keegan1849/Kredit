@@ -32,18 +32,34 @@
             </div>
         </nav>
         <!-- End Navigation -->
+        <?php
+          
+          $servername = "localhost";
+          $username = "root";
+          $password = "password";
+          $database = "kredit";
+
+          // Create connection
+          $conn = new mysqli($servername, $username, $password, $database);
+
+          $sql = "SELECT * FROM post;";
+          $result = $conn->query($sql);
+        ?>
 
 
         <div id="card-container">
         </div>
         <div id="loader">
-          <div class="skeleton-card"></div>
+          <div class="skeleton-card">
+
+          </div>
         </div>
         <div class="card-actions"> 
             <span id="card-count"> 
             <span id="card-total">
         </div>
 
+                    
     </body>
 
 </html>
