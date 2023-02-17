@@ -29,17 +29,43 @@
             </div>
         </nav>
     <!-- End Navigation -->
+    <?php
+          
+          $servername = "localhost";
+          $username = "root";
+          $password = "password";
+          $database = "kredit";
+
+          // Create connection
+          $conn = new mysqli($servername, $username, $password, $database);
+
+          $sql = "SELECT * FROM post;";
+          $result = $conn->query($sql);
+
+          if ($result->num_rows > 0) {
+            while($row = $result->fetch_assoc()) {
+        ?>
 
         <div id="card-container">
         </div>
         <div id="loader">
-          <div class="skeleton-card"></div>
-          <div class="skeleton-card"></div>
-          <div class="skeleton-card"></div>
+          <div class="skeleton-card">
+          <span><?=$row["post_description"]?></span>
+          </div>
+
         </div>
         <div class="card-actions"> 
-            <span id="card-count"> 
+        <span><?=$row["post_description"]?></span>
+            <span id="card-count">
             <span id="card-total">
         </div>
+        <?php
+             }
+              } else {
+           echo "0 Results";
+             }
+               echo "</table>";
+              $conn->close();
+        ?> 
     </body>
 </html>
