@@ -11,8 +11,8 @@
 
 /* Start body rules */
 body {
-    background-image: linear-gradient(-225deg, #E3FDF5 0%, #FFE6FA 100%);
-background-image: linear-gradient(to top, #a8edea 0%, #fed6e3 100%);
+    background-image: linear-gradient(-225deg, #613659 0%, #eed9e4 100%);
+background-image: linear-gradient(to top, #613659 0%, #eed9e4 100%);
 background-attachment: fixed;
   background-repeat: no-repeat;
 
@@ -40,9 +40,9 @@ form {
     height: auto;
     border-radius: 5px;
     margin: 2% auto;
-    box-shadow: 0 9px 50px hsla(20, 67%, 75%, 0.31);
+    box-shadow: 0 9px 50px ;
     padding: 2%;
-    background-image: linear-gradient(-225deg, #E3FDF5 50%, #FFE6FA 50%);
+    background-image: linear-gradient(-225deg, #d3b1c2 50%, #eed9e4 50%);
 }
 /* form Container */
 form .con {
@@ -154,6 +154,7 @@ button {
     text-align: center;
     transition: all 0.2s linear;
     
+    
     margin: 7% auto;
     letter-spacing: 0.05em;
 }
@@ -169,7 +170,7 @@ button {
 .frgt-pass {background: transparent;}
 
 /*     Sign Up button  */
-.sign-up {background: #B8F2E6;}
+.sign-up {background: #613659; color: #eed9e4;}
 
 
 /* buttons hover */
@@ -189,4 +190,14 @@ button:hover {
     100% {
         transform: translateY(5px);
     }
+}
+
+#kred{
+    text-align: center;
+    font-size: 50px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding-top: 2.5%;
+}
+#log{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }

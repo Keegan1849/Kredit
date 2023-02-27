@@ -11,10 +11,10 @@
         <link rel="stylesheet" href="scripts/style.css">
         <link rel="stylesheet" href="scripts/style2.css">
         <link rel="stylesheet" href="scripts/createacc.css">
-
+   
     </head>
     <body>
-
+<h1 id="Kred">KREDIT</h1>
     <div class="overlay">
 <!-- LOGN IN FORM by Omar Dsoky -->
 <form>
@@ -22,14 +22,15 @@
    <div class="con">
    <!--     Start  header Content  -->
    <header class="head-form">
-      <h2>Log In</h2>
+      <h2 id="log">Log In</h2>
       <!--     A welcome message or an explanation of the login form -->
-      <p>login here using your username and password</p>
+      <p id="log">login here using your username and password</p>
    </header>
    <!--     End  header Content  -->
    <br>
    <div class="field-set">
-     
+     \
+
       <!--   user name -->
          <span class="input-item">
            <i class="fa fa-user-circle"></i>
@@ -49,7 +50,7 @@
      
 <!--      Show/hide password  -->
      <span>
-        <i class="fa fa-eye" aria-hidden="true"  type="button" id="eye"></i>
+        <i class="fa fa-eye" aria-hidden="true"  type="button" id="eye">                                                      </i>
      </span>
      
      
@@ -62,7 +63,7 @@
 <!--   other buttons -->
    <div class="other">
 <!--      Forgot Password button-->
-      <button class="btn submits frgt-pass">Forgot Password</button>
+      <button class="btn submits frgt-pass" >Forgot Password</button>
 <!--     Sign Up button -->
       <button class="btn submits sign-up">Sign Up 
 <!--         Sign Up font icon -->
