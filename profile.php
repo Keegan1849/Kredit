@@ -4,6 +4,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
         <meta name="description" content="" />
         <meta name="author" content="" />
+        <meta name="viewport" content="width=device-width, initial-scale=1">
         <title>Home</title>
         <!-- Bootstrap icons-->
         <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css" rel="stylesheet" />
@@ -11,6 +12,28 @@
         <link rel="stylesheet" href="scripts/style.css">
         <link rel="stylesheet" href="scripts/style2.css">
     </head>
+    
+<style>
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1; 
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #613659; 
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #beaab4; 
+}
+</style>
     <body class="bgImg" style="background-color: #eed9e4;">
 
      <!-- Navigation-->
