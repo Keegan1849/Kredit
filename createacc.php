@@ -4,7 +4,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
         <meta name="description" content="" />
         <meta name="author" content="" />
-        <title>Home</title>
+        <title>LOGIN</title>
         <!-- Bootstrap icons-->
         <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css" rel="stylesheet" />
         <!-- Core theme CSS (includes Bootstrap)-->
@@ -22,9 +22,9 @@
    <div class="con">
    <!--     Start  header Content  -->
    <header class="head-form">
-      <h2 onload="typeWriter()" id="log"></h2>
+      <h2 id="log">Login</h2>
       <!--     A welcome message or an explanation of the login form -->
-      <p id="log">login here using your username and password</p>
+      <p id="log">Log in with your USERNAME and PASSWORD</p>
    </header>
    <!--     End  header Content  -->
    <br>
