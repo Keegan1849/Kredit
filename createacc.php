@@ -29,7 +29,7 @@
    <!--     End  header Content  -->
    <br>
    <div class="field-set">
-     \
+     
 
       <!--   user name -->
          <span class="input-item">
@@ -50,7 +50,7 @@
      
 <!--      Show/hide password  -->
      <span>
-        <i class="fa fa-eye" aria-hidden="true"  type="button" id="eye">                                                      </i>
+        <i class="fa fa-eye" aria-hidden="true"  type="button" id="eye">👁</i>
      </span>
      
      
@@ -63,7 +63,7 @@
 <!--   other buttons -->
    <div class="other">
 <!--      Forgot Password button-->
-      <button class="btn submits frgt-pass" >Forgot Password</button>
+      <button class="btn submits frgt-pass"   >Forgot Password</button>
 <!--     Sign Up button -->
       <button class="btn submits sign-up">Sign Up 
 <!--         Sign Up font icon -->
@@ -80,6 +80,6 @@
 </div>
 
     </body>
-    <script src="createacc.js"></script>
+    <script src="scripts/createacc.js"></script>
 
 </html>
