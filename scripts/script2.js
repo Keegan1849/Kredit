@@ -14,7 +14,7 @@ function showSlides() {
 }
 
 var i = 0;
-var txt = 'LOG IN HERE';
+var txt = 'login here using your username and password';
 var speed = 50;
 
 function typeWriter() {
