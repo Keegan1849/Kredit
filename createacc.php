@@ -22,7 +22,7 @@
    <div class="con">
    <!--     Start  header Content  -->
    <header class="head-form">
-      <h2 id="log"></h2>
+      <h2 onload="typeWriter()" id="log"></h2>
       <!--     A welcome message or an explanation of the login form -->
       <p id="log">login here using your username and password</p>
    </header>
