@@ -16,7 +16,7 @@
     <body>
 <h1 id="Kred">KREDIT</h1>
     <div class="overlay">
-<!-- LOGN IN FORM by Omar Dsoky -->
+<!-- LOGN IN FORM -->
 <form>
    <!--   con = Container  for items in the form-->
    <div class="con">
