@@ -1,3 +1,58 @@
+<?php
+session_start();
+
+$username = "";
+$password = "";
+$error = 0;
+$processed = 0;
+$error_message = "Error Message: ";
+$result = "";
+$sql = ""; 
+
+$servername = "localhost:3306";
+$username = "root";
+$password = "password";
+$database = "kredit";
+//Create DB Connection
+$conn = new mysqli($servername, $username, $password, $database);
+$conn_error = false;
+if($conn->connect_error){
+    $conn_error = true;
+}
+
+if($_SERVER["REQUEST_METHOD"] == "POST"){
+
+    $processed = 1;
+    if(empty($_POST["username"])){
+        $error = 1;
+        $error_message .= "<br>&middot;Please enter a username.";
+    }else{
+        $username = $_POST["username"];
+    }
+    if(empty($_POST["password"])){
+        $error = 1;
+        $error_message .= "<br>&middot;Please enter a password.";
+    }else{
+        $password = $_POST["password"];
+    }
+
+
+}
+if($error == 0){
+    $sql = "SELECT * FROM user WHERE user_username = '" . $username . "' AND user_password =  '" . $password . "';";
+    $result = $conn->query($sql);
+    if($result->num_rows > 0){
+        $_SESSION["username"] = $username;
+        header("Location: search.php");
+
+    }else{
+        $error = 1;
+        $error_message = "Invaid username or password";
+    }
+
+}
+?>
+
 <html>
     <head>
     <meta charset="utf-8" />
@@ -11,7 +66,7 @@
         <link rel="stylesheet" href="scripts/style.css">
         <link rel="stylesheet" href="scripts/style2.css">
         <link rel="stylesheet" href="scripts/createacc.css">
-   
+
     </head>
     <body>
 <h1 id="Kred">KREDIT</h1>
@@ -29,6 +84,7 @@
    <!--     End  header Content  -->
    <br>
    <div class="field-set">
+
      
 
       <!--   user name -->
@@ -83,3 +139,6 @@
     <script src="scripts/createacc.js"></script>
 
 </html>
+<?php
+$conn->close();
+?>

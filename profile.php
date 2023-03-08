@@ -98,10 +98,6 @@
                          <!-- upload -->
                          <button class="button">Upload Project</button>
 
-                    <form action="/action_page.php">
-                            <input type="file" id="myFile" name="filename">
-                             <input type="submit">
-                    </form>
 
                     <div class="d-flex justify-content-between align-items-center mb-4">
                     <p class="lead fw-normal mb-0">Recent Projects</p>
