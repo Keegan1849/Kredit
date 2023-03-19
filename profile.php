@@ -96,8 +96,7 @@
                     </div>
                     </div>
                          <!-- upload -->
-                         <button class="button">Upload Project</button>
-
+                         <button class="button"><a href="upload.php">upload</a></button>
 
                     <div class="d-flex justify-content-between align-items-center mb-4">
                     <p class="lead fw-normal mb-0">Recent Projects</p>
