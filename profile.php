@@ -63,10 +63,7 @@
                     <img src="Images/IMG_5872.JPG"
                         alt="Generic placeholder image" class="img-fluid img-thumbnail mt-4 mb-2"
                         style="width: 150px; height: 150px; z-index: 1">
-                    <button type="button" class="btn btn-outline-dark" data-mdb-ripple-color="dark"
-                        style="z-index: 1;">
-                        Edit profile
-                    </button>
+
                     </div>
                     <div class="ms-3" style="margin-top: 130px;">
                     <h5>Rui Peña</h5>
@@ -98,6 +95,9 @@
                         <p class="font-italic mb-0"></p>
                     </div>
                     </div>
+                         <!-- upload -->
+                         <button class="button"><a href="upload.php">upload</a></button>
+
                     <div class="d-flex justify-content-between align-items-center mb-4">
                     <p class="lead fw-normal mb-0">Recent Projects</p>
                     <p class="mb-0"><a href="#!" class="text-muted">Show all</a></p>

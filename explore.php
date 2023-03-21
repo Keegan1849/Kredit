@@ -12,6 +12,8 @@
         <link rel="stylesheet" href="scripts/style.css">
         <link rel="stylesheet" href="scripts/style2.css">
         <link rel="stylesheet" href="scripts/explore.css">
+        <link rel="stylesheet" href="scripts/uploadbutton.css">
+
     </head>
     <body class="bg">
         <!-- Navigation-->
@@ -24,7 +26,6 @@
                         <li class="nav-item"><a class="nav-link active" aria-current="page" href="explore.php">Explore</a></li>
                         <li class="nav-item"><a class="nav-link" href="profile.php">Profile</a></li>
                         <li class="nav-item"><a class="nav-link" href="favorites.php">Favorites</a></li>
-                        
                     </ul>
                     
                 </div>
