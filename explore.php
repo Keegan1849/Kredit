@@ -35,8 +35,8 @@
           
           $servername = "localhost";
           $username = "root";
-          $password = "password";
-          $database = "kredit";
+          $password = "password@23";
+          $database = "kreditdb";
 
           // Create connection
           $conn = new mysqli($servername, $username, $password, $database);
