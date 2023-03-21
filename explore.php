@@ -34,8 +34,8 @@
     <!-- End Navigation -->
     <?php
           
-          $servername = "localhost";
-          $username = "root";
+          $servername = "10.4.52.65:3306";
+          $username = "remote";
           $password = "password@23";
           $database = "kreditdb";
 
