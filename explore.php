@@ -34,13 +34,14 @@
     <!-- End Navigation -->
     <?php
           
-          $servername = "localhost";
-          $username = "root";
+          $servername = "10.4.52.65";
+          $username = "remote";
           $password = "password@23";
           $database = "kreditdb";
+          $port = "3306";
 
           // Create connection
-          $conn = new mysqli($servername, $username, $password, $database);
+          $conn = new mysqli($servername, $username, $password, $database,$port);
 
           $sql = "SELECT * FROM post;";
           $result = $conn->query($sql);
